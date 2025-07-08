@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+@import "tailwindcss";
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.text-h1 {
+  font-size: 3rem;
+}
+
+.text-h2 {
+  font-size: 2.75rem;
+}
+
+.text-h3 {
+  font-size: 1.5rem;
+}
+
+.text-h4 {
+  font-size: 1.25rem;
+}
+
+.text-h5 {
+  font-size: 1.125rem;
+}
+
+.text-h6 {
+  font-size: 1rem;
+}
