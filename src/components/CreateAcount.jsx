@@ -11,7 +11,7 @@ export default function CreateAccountPopup({ onClose, setIsLoggedIn }) {
   setLoading(true);
 
   try {
-    const registerResponse = await fetch('https://thingproxy.freeboard.io/fetch/https://peikrapeikra.pythonanywhere.com/api/user/register/', {
+    const registerResponse = await fetch('https://peikrapeikra.pythonanywhere.com/api/user/register/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, email, password }),
